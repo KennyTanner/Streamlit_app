@@ -46,10 +46,10 @@ except URLError as e:
 
 # streamlit.dataframe(fruityvice_normalized)
 
-fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
-streamlit.write('The user entered ', fruit_choice)
+# fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
+# streamlit.write('The user entered ', fruit_choice)
 
-streamlit.header("The fruit load list contains:")
+# streamlit.header("The fruit load list contains:")
 
 def get_fruit_load_list():
   with my_cnx.cursor() as my_cur:
